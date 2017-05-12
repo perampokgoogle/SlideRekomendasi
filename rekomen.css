@@ -1,0 +1,20 @@
+#chslidingbox{background:#fff;width:100%;max-width:355px;height:185px;position:fixed;overflow:hidden;border:none;right:-360px;z-index:99;text-align:left;box-shadow:0 1px 0 0 rgba(0,0,0,0.03);transition:all .4s ease-out}
+.chslidingbox-title{background:#9eb2c0;color:#fff;display:block;height:45px;line-height:45px;width:100%;font-size:14px;text-transform:capitalize;font-weight:700;letter-spacing:.5px}
+.chslidingbox-title span a{font-family:initial;float:right;height:40px;margin:0 0 0 15px;text-align:center;color:#fff;font-size:20px}
+a#chslidingbox-close,a#chslidingbox-close{margin-right:15px}
+.chslidingbox-title >span >h2{font-size:20px!important;font-weight:normal!important}
+.chslidingbox-container{border:none;float:left;width:100%;height:auto;margin:3px}
+.chslidingbox-container >div{border:none;margin:3px 0;padding:10px 0}
+.chslidingbox-container >div >span{font-size:14px}
+.show{bottom:84px}
+.hide{bottom:-145px}
+.related-post{font-size:70%}
+.related-post h4{font-size:150%;margin:0 0 .5em}
+.related-post-style-2{margin-top:-20px;padding-top:15px;list-style:none}
+.related-post-style-2 li{padding:0 10px 10px 10px;overflow:hidden}
+.related-post-style-2 li:first-child{border-top:none}
+.related-post-style-2 .related-post-item-thumbnail{width:45px;height:45px;max-width:none;max-height:none;border:0;padding:0;border-radius:3px;float:left;margin:2px 10px 0 0}
+.related-post-style-2 .related-post-item-title{font-weight:700;font-size:130%;line-height:normal}
+a.related-post-item-title{color:#95a5a6;transition:all .4s ease-out}
+a:hover.related-post-item-title{color:#2ecc71;text-decoration:none}
+.related-post-style-2 .related-post-item-summary{display:block;overflow:hidden}
